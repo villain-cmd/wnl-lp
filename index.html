@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>WellNext Nursing Lab｜医療の現場に、コーチングの力を。</title>
-  <meta name="description" content="WellNext Nursing Labは、医療機関の看護師・リーダー・チームに向けたコーチング支援を提供します。" />
-
+  <meta
+    name="description"
+    content="WellNext Nursing Labは、医療機関の看護師・リーダー・チームに向けたコーチング、リーダーシップ開発、個別支援を提供します。"
+  />
   <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
+
   <header class="header">
     <a href="#" class="logo">
       <img src="./assets/logo.svg" alt="WellNext Nursing Lab" />
@@ -25,177 +26,249 @@
     </nav>
 
     <div class="header-actions">
-      <a href="#contact" class="btn primary">無料相談を申し込む</a>
-      <button class="menu-btn" type="button" aria-label="メニュー">
+      <a href="#contact" class="btn btn-primary">無料相談を申し込む</a>
+      <button class="menu-btn" type="button" aria-label="メニューを開く">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
   <main>
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-text">
-        <p class="catch">
+        <p class="hero-kicker">
           未来をつくるのは、<br />
           「人」と「チーム」。
         </p>
 
         <h1>
           医療の現場に、<br />
-          <span>コーチング</span>の力を。
+          <span class="grad-text">コーチング</span>の力を。
         </h1>
 
-        <p class="lead">
+        <p class="hero-lead">
           看護師一人ひとりが輝き、チームが変わる。<br />
           医療機関の成長を、私たちが伴走します。
         </p>
 
         <div class="hero-buttons">
-          <a href="#contact" class="btn primary">無料相談を申し込む</a>
-          <a href="#" class="btn outline">サービス資料をダウンロード</a>
+          <a href="#contact" class="btn btn-primary">無料相談を申し込む</a>
+          <a href="#" class="btn btn-outline">サービス資料をダウンロード</a>
         </div>
       </div>
 
-      <div class="hero-image">
-        <img src="./assets/hero-nurse.png" alt="笑顔の看護師" />
-        <div class="message">Coaching<br />Empowers<br />Care.</div>
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <img src="./assets/hero-nurse.png" alt="笑顔の看護師" class="hero-photo" />
+        </div>
+        <div class="hero-note">
+          Coaching<br />
+          Empowers<br />
+          Care.
+        </div>
       </div>
     </section>
 
-    <section id="service" class="section service">
-      <div class="section-title">
-        <p>SERVICE</p>
-        <h2>サービス紹介</h2>
+    <!-- SERVICE -->
+    <section id="service" class="section service-section">
+      <div class="section-side">
+        <p class="section-en">SERVICE</p>
+        <h2 class="section-ja">サービス紹介</h2>
+        <span class="section-line"></span>
       </div>
 
-      <div class="cards three">
-        <article class="card service-card">
-          <div class="icon pink">♟</div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon-wrap">
+            <img
+              src="./assets/icons/service-org-coaching.png"
+              alt=""
+              class="service-icon"
+            />
+          </div>
           <h3>組織コーチング</h3>
-          <p>ビジョン共有・対話を通して、チームの一体感と成果を高めます。</p>
-          <a href="#">→</a>
+          <p>
+            ビジョン共有・対話を通して、<br />
+            チームの一体感と成果を高めます。
+          </p>
+          <a href="#" class="card-arrow pink">→</a>
         </article>
 
-        <article class="card service-card">
-          <div class="icon mint">↗</div>
+        <article class="service-card">
+          <div class="service-icon-wrap">
+            <img
+              src="./assets/icons/service-leadership.png"
+              alt=""
+              class="service-icon"
+            />
+          </div>
           <h3>リーダーシップ開発</h3>
-          <p>管理職・リーダーの在り方を整え、自律的に動ける組織をつくります。</p>
-          <a href="#">→</a>
+          <p>
+            管理職・リーダーの在り方を整え、<br />
+            自律的に動ける組織をつくります。
+          </p>
+          <a href="#" class="card-arrow mint">→</a>
         </article>
 
-        <article class="card service-card">
-          <div class="icon yellow">♡</div>
+        <article class="service-card">
+          <div class="service-icon-wrap">
+            <img
+              src="./assets/icons/service-personal-coaching.png"
+              alt=""
+              class="service-icon"
+            />
+          </div>
           <h3>個別コーチング</h3>
-          <p>看護師一人ひとりの強みを引き出し、キャリアとやりがいをサポート。</p>
-          <a href="#">→</a>
+          <p>
+            看護師一人ひとりの強みを引き出し、<br />
+            キャリアとやりがいをサポート。
+          </p>
+          <a href="#" class="card-arrow yellow">→</a>
         </article>
       </div>
     </section>
 
-    <section id="results" class="section split">
-      <div class="section-title">
-        <p>RESULTS</p>
-        <h2>導入実績</h2>
-        <span>多くの医療機関で成果を生み出しています。</span>
-        <a href="#" class="btn secondary">すべての実績を見る →</a>
+    <!-- RESULTS -->
+    <section id="results" class="section split-section">
+      <div class="section-side">
+        <p class="section-en">RESULTS</p>
+        <h2 class="section-ja">導入実績</h2>
+        <p class="section-sub">多くの医療機関で成果を生み出しています。</p>
+        <a href="#" class="btn btn-secondary">すべての実績を見る →</a>
       </div>
 
-      <div class="cards three">
+      <div class="results-grid">
         <article class="result-card">
-          <b class="case pink">CASE<br />01</b>
-          <img src="./assets/result-01.jpg" alt="総合病院" />
-          <div>
+          <span class="case-badge pink">CASE<br />01</span>
+          <img src="./assets/result-01.jpg" alt="200床規模 総合病院" class="result-photo" />
+          <div class="result-body">
             <h3>200床規模 総合病院</h3>
-            <p>離職率が <strong>24%→8%</strong> に改善</p>
+            <p>離職率が <strong>24% → 8%</strong> に改善</p>
             <span class="tag pink">組織コーチング</span>
           </div>
         </article>
 
         <article class="result-card">
-          <b class="case mint">CASE<br />02</b>
-          <img src="./assets/result-02.jpg" alt="病院" />
-          <div>
+          <span class="case-badge mint">CASE<br />02</span>
+          <img src="./assets/result-02.jpg" alt="150床規模 病院" class="result-photo" />
+          <div class="result-body">
             <h3>150床規模 病院</h3>
-            <p>新人看護師の定着率 <strong>65%→92%</strong> に向上</p>
+            <p>新人看護師の定着率 <strong>65% → 92%</strong> に向上</p>
             <span class="tag mint">リーダーシップ開発</span>
           </div>
         </article>
 
         <article class="result-card">
-          <b class="case yellow">CASE<br />03</b>
-          <img src="./assets/result-03.jpg" alt="クリニック" />
-          <div>
+          <span class="case-badge yellow">CASE<br />03</span>
+          <img src="./assets/result-03.jpg" alt="クリニック（在宅部門）" class="result-photo" />
+          <div class="result-body">
             <h3>クリニック（在宅部門）</h3>
-            <p>スタッフ満足度 <strong>85%→95%</strong> に向上</p>
+            <p>スタッフ満足度 <strong>85% → 95%</strong> に向上</p>
             <span class="tag yellow">個別コーチング</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="strengths" class="section split">
-      <div class="section-title">
-        <p>STRENGTHS</p>
-        <h2>WellNext Nursing Lab<br />が選ばれる理由</h2>
+    <!-- STRENGTHS -->
+    <section id="strengths" class="section split-section">
+      <div class="section-side">
+        <p class="section-en">STRENGTHS</p>
+        <h2 class="section-ja">
+          WellNext Nursing Lab<br />
+          が選ばれる理由
+        </h2>
       </div>
 
-      <div class="strength-grid">
-        <article>
-          <div>💎</div>
+      <div class="strengths-grid">
+        <article class="strength-item">
+          <div class="strength-icon-wrap">
+            <img
+              src="./assets/icons/strength-specialty.png"
+              alt=""
+              class="strength-icon"
+            />
+          </div>
           <h3>医療に特化した専門性</h3>
           <p>医療・看護の現場を深く理解したコーチが伴走します。</p>
         </article>
-        <article>
-          <div>🎯</div>
+
+        <article class="strength-item">
+          <div class="strength-icon-wrap">
+            <img
+              src="./assets/icons/strength-practical.png"
+              alt=""
+              class="strength-icon"
+            />
+          </div>
           <h3>現場に寄り添う実践力</h3>
           <p>理論だけでなく、現場で使える具体策まで提案します。</p>
         </article>
-        <article>
-          <div>📈</div>
+
+        <article class="strength-item">
+          <div class="strength-icon-wrap">
+            <img
+              src="./assets/icons/strength-trust.png"
+              alt=""
+              class="strength-icon"
+            />
+          </div>
           <h3>確かな変化と信頼</h3>
           <p>多くの医療機関で成果を創出。継続率は90%以上。</p>
         </article>
-        <article>
-          <div>🤝</div>
+
+        <article class="strength-item">
+          <div class="strength-icon-wrap">
+            <img
+              src="./assets/icons/strength-support.png"
+              alt=""
+              class="strength-icon"
+            />
+          </div>
           <h3>安心のサポート体制</h3>
           <p>初めての方でも安心して始められる丁寧なサポートを提供します。</p>
         </article>
       </div>
     </section>
 
-    <section id="price" class="section split">
-      <div class="section-title">
-        <p>PRICE</p>
-        <h2>料金プラン</h2>
-        <span>貴院の課題や規模に合わせて最適なプランをご提案します。</span>
+    <!-- PRICE -->
+    <section id="price" class="section split-section">
+      <div class="section-side">
+        <p class="section-en">PRICE</p>
+        <h2 class="section-ja">料金プラン</h2>
+        <p class="section-sub">
+          貴院の課題や規模に合わせて<br />
+          最適なプランをご提案します。
+        </p>
       </div>
 
-      <div class="cards three price-cards">
-        <article class="price-card pink">
+      <div class="price-grid">
+        <article class="price-card pink-border">
           <h3>スポット相談</h3>
-          <p>単発セッション（90分）</p>
-          <strong>￥30,000〜</strong>
+          <p class="price-meta">単発セッション（90分）</p>
+          <div class="price-value">￥30,000〜</div>
           <ul>
             <li>課題の整理・ヒアリング</li>
             <li>改善のヒントをご提案</li>
           </ul>
         </article>
 
-        <article class="price-card mint popular">
-          <em>人気No.1</em>
+        <article class="price-card mint-border popular">
+          <span class="popular-label">人気No.1</span>
           <h3>伴走プラン</h3>
-          <p>3ヶ月サポート</p>
-          <strong>￥300,000〜</strong>
+          <p class="price-meta">3ヶ月サポート</p>
+          <div class="price-value">￥300,000〜</div>
           <ul>
             <li>月2回のセッション</li>
             <li>実行支援・振り返り・改善提案</li>
           </ul>
         </article>
 
-        <article class="price-card yellow">
+        <article class="price-card yellow-border">
           <h3>カスタムプラン</h3>
-          <p>6ヶ月〜</p>
-          <strong>お見積り</strong>
+          <p class="price-meta">6ヶ月〜</p>
+          <div class="price-value">お見積り</div>
           <ul>
             <li>貴院の課題に合わせた設計</li>
             <li>継続的な成長創出をサポート</li>
@@ -204,13 +277,14 @@
       </div>
     </section>
 
-    <section id="faq" class="section faq">
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
       <div class="faq-left">
-        <div class="section-title">
-          <p>FAQ</p>
-          <h2>よくあるご質問</h2>
+        <div class="section-side section-side-faq">
+          <p class="section-en">FAQ</p>
+          <h2 class="section-ja">よくあるご質問</h2>
         </div>
-        <img src="./assets/faq-nurses.jpg" alt="看護師の相談風景" />
+        <img src="./assets/faq-nurses.jpg" alt="看護師の相談風景" class="faq-photo" />
       </div>
 
       <div class="faq-list">
@@ -237,22 +311,24 @@
       </div>
     </section>
 
+    <!-- CTA -->
     <section id="contact" class="cta">
-      <div>
+      <div class="cta-text">
         <p>Let’s create the next well.</p>
         <h2>私たちが、貴院の未来を一緒に描きます。</h2>
         <span>まずはお気軽にご相談ください。</span>
       </div>
 
       <a href="mailto:info@example.com" class="cta-btn">
-        無料相談を申し込む <b>→</b>
+        無料相談を申し込む
+        <b>→</b>
       </a>
     </section>
   </main>
 
   <footer class="footer">
-    <img src="./assets/logo.svg" alt="WellNext Nursing Lab" />
-    <nav>
+    <img src="./assets/logo.svg" alt="WellNext Nursing Lab" class="footer-logo" />
+    <nav class="footer-nav">
       <a href="#service">サービス</a>
       <a href="#results">導入実績</a>
       <a href="#strengths">強み</a>
